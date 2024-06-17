@@ -1,9 +1,9 @@
 import unittest
 from app import hello
 
-class TestApp(unittest.TestCase):
+class TestHello(unittest.TestCase):
     def test_hello(self):
-        self.assertEqual(hello(), 'Hello, CI/CD!')
+        self.assertEqual(hello(), "Hello, CI/CD!")
 
 if __name__ == '__main__':
     unittest.main()
